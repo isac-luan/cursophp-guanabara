@@ -33,7 +33,8 @@
         ?>
 
         <div>
-            <table id="divisao">
+            <table>
+                <tbody>
                 <tr>
                     <td class="td"><?php echo $valor1; ?></td>
                     <td><?php echo $valor2; ?></td>
@@ -43,6 +44,7 @@
                     <td><?php echo $resto; ?></td>
                     <td><?php echo $quociente; ?></td>
                 </tr>
+                </tbody>
             </table>
         </div>
     </section>
